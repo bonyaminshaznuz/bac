@@ -1,56 +1,84 @@
 <!DOCTYPE html>
 <html lang="bn">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Bauphal Admission Care</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       font-family: 'Helvetica Neue', sans-serif;
     }
+
     header {
       background: linear-gradient(90deg, #83b4ff 0%, #0a58ca 100%);
       color: white;
       padding: 80px 0;
     }
+
     .logo-img {
       max-height: 60px;
       width: auto;
     }
+
+    section {
+      scroll-margin-top: 80px;
+      /* fix navbar overlap */
+    }
+
     .section-title {
       font-weight: bold;
       margin-bottom: 30px;
     }
+
     footer {
       background-color: #f8f9fa;
       padding: 30px 0;
       text-align: center;
     }
+
     .testimonial {
       background-color: #f0f0f0;
       padding: 15px;
       border-radius: 10px;
       margin-bottom: 20px;
     }
+
     .nav-link {
       color: white !important;
+      margin: 0 5px;
     }
+
+    .navbar {
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
     @media (max-width: 767.98px) {
       header h1 {
         font-size: 1.8rem;
       }
+
       header p {
         font-size: 1rem;
       }
+          section {
+      scroll-margin-top: 220px;
+      /* fix navbar overlap */
+    }
     }
   </style>
 </head>
+
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg sticky-top" style="background: linear-gradient(90deg, #83b4ff 0%, #0a58ca 100%); color: white;">
+  <nav class="navbar navbar-expand-lg sticky-top" style="background: linear-gradient(90deg, #83b4ff 0%, #0a58ca 100%);">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="#">
         <img src="./logo.png" alt="Logo" class="logo-img me-2">
@@ -83,7 +111,8 @@
     <div class="container">
       <h2 class="text-center section-title">আমাদের সম্পর্কে</h2>
       <p class="text-center">
-        বাউফলের শিক্ষার্থীদের জন্য গঠিত একটি উদ্যোগ যা এসএসসি, এইচএসসি এবং বিশ্ববিদ্যালয় ভর্তির প্রক্রিয়া সহজ ও সহায়ক করে তোলে। আমরা তথ্য, প্রস্তুতির কৌশল এবং প্রয়োজনীয় দিকনির্দেশনা প্রদান করি।
+        বাউফলের শিক্ষার্থীদের জন্য গঠিত একটি উদ্যোগ যা এসএসসি, এইচএসসি এবং বিশ্ববিদ্যালয় ভর্তির প্রক্রিয়া সহজ ও সহায়ক
+        করে তোলে। আমরা তথ্য, প্রস্তুতির কৌশল এবং প্রয়োজনীয় দিকনির্দেশনা প্রদান করি।
       </p>
     </div>
   </section>
@@ -119,7 +148,8 @@
       <div class="row">
         <div class="col-md-6 mb-3">
           <div class="testimonial">
-            <p>“আমি এই প্ল্যাটফর্ম থেকে মেডিকেল ভর্তি সম্পর্কে বিস্তারিত জানতে পেরেছি। ধন্যবাদ বাউফল অ্যাডমিশন কেয়ার!”</p>
+            <p>“আমি এই প্ল্যাটফর্ম থেকে মেডিকেল ভর্তি সম্পর্কে বিস্তারিত জানতে পেরেছি। ধন্যবাদ বাউফল অ্যাডমিশন কেয়ার!”
+            </p>
             <strong>- শাওন রহমান</strong>
           </div>
         </div>
@@ -151,6 +181,8 @@
     </div>
   </footer>
 
+  <!-- JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
